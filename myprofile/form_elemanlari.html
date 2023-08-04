@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mSk | Form Elemanları</title>
+    <link rel="stylesheet" href="/myprofile/css/style.css">
+
+</head>
+<body>
+    <div id="baslik">
+        <h1>Mustafa Sahinkaya</h1>
+        <h3>Full Stack Otomasyon Test Mühendisi</h3>
+      </div>
+  
+      <div id="menu1" >
+        <p style="line-height: 1.4; border: 2px solid rgb(113, 224, 1) ; text-align: center; background-color: aqua; font-weight: bold; padding: 7px; border-radius: 25px;">
+          <a href="index.html"> Ana Sayfa</a> -||- <a href="objective.html">Objective-Summary</a> -||- <a href="iletisim.html">İletişim</a>  -||- <a href="form_elemanlari.html">Form</a>
+               </p>
+      </div>
+      <div  id="main">
+
+    <h1>Form Elemanları</h1>
+    <form action="user/update" method="post">
+        <label for="ad">Adınız :</label>
+        <input type="text" id="ad">
+        <br><br>
+        <label for="soyad">Sayadınız :</label>
+        <input type="text" id="soyad">
+        <br><br>
+        <label for="yas">Yaşınız : </label>
+        <input type="number" id="yas">
+        <br><br>
+        <label for="eposta">E-Posta Adresiniz : </label>
+        <input type="email" id="eposta">
+        <br><br>
+        <label for="sifre">Şifrenizi Belirleyiniz : </label>
+        <input type="password" id="sifre">
+        <br><br>
+        <label>Cinsiyet Seçiniz : </label>
+        <br>
+        <label for="erkek"> Erkek</label>
+        <input type="radio" name="cinsiyet" id="erkek">
+        <label for="kadin">Kadın</label>
+        <input type="radio" name="cinsiyet" id="kadin">
+        <br><br>
+        <label>Hobileriniz</label>
+        <br>
+        <label for="spor">Spor</label>
+        <input type="checkbox" id="spor">
+        <label for="muzik">Müzik</label>
+        <input type="checkbox" id="muzik">
+        <br><br>
+        <label for="dogumtarihi">Doğum Tarihiniz:</label>
+        <input type="datetime-local" id="dogumtarihi">
+        <br><br>
+        <label for="dogumyeri'">Doğum Yeriniz :</label>
+            <select id="dogumyeri">
+                <option value="00">Seçiniz</option>
+                <option value="01">Ankara</option>
+                <option value="02">İzmir</option>
+                <option value="03">Trabzon</option>
+            </select>
+        <br><br>
+        <label for="renk">Sevdiğiniz Renk:</label>
+        <input type="color" id="renk">
+        <br><br>
+        <label for="dosya">CV'nizi Ekleyiniz : </label>
+        <input type="file" id="dosya">
+        <br><br>
+        <label for="mesaj">Mesajınız : </label>
+        <textarea name="" id="mesaj" cols="30" rows="5"></textarea>
+        <br><br>
+        <button type="submit">Gönder</button>
+        <button type="reset" >Temizle</button> <!-- reset: içinde olduğu form etribute içindeki bütün yazılan ve işaretlenenleri temizler. -->
+
+
+      </div>
+
+    </form>
+    <footer>
+        <p id="alt">
+          made by msk
+        </p>
+      </footer>
+  
+</body>
+</html>

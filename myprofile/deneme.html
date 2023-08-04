@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div class="home js-ajax">
+        <div class="box gray no-padding" id="js-ana_sayfa_ayin_yazarlari">
+            <div class="box-heading padding">
+                <div class="ribbon-container">
+                    <div class="ribbon-text">Ayın Yazarları</div>
+                </div>
+                <div class="heading-nav-horizontal">
+                    <a class="view-all" href="ayin-yazarlari" data-title="Ayın Yazarları">Tümünü Göster</a>
+                </div>
+            </div>
+            <div class="box-content html-display-wr" style="height:165px"><style>
+        .authors-wr{overflow:hidden;padding:15px 0 10px 15px;user-select:none}.authors-wr a{display:inline-block;position:relative;width:130px;height:140px;text-align:center;text-decoration:none}.authors-wr img{display:inline-block;width:100px;height:100px;border-radius:50%;border:2px solid #ddd;pointer-events:none}.authors-wr .discount{display:none;position:absolute;box-sizing:border-box;width:104px;height:104px;left:13px;top:0;padding-top:28px;font-size:15px;text-align:center;color:#fff!important;background-color:#c00;border-radius:50%;pointer-events:none;opacity:.95}.authors-wr .discount b{font-size:1.3em;color:#fff!important}.authors-wr a:hover .discount{display:block}.authors-wr .name{position:absolute;width:130px;left:0;top:110px;font-size:12px;text-align:center;color:#666}.authors-wr a:hover .name{color:#000}
+        </style>
+        <div class="authors-wr">
+          <a href="index.php?route=product/manufacturer_products&amp;manufacturer_id=9618&amp;filter_publisher=43&amp;sort=purchased_365&amp;order=DESC&amp;filter_in_stock=1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11750473/wi:200/wh:2aa010909" alt="Elif<br>Şafak" width="100" height="100"><span class="discount">kitaplarında %30'a varan indirimler!</span><span class="name">Elif<br>Şafak</span></a>
+          <a href="index.php?route=product/manufacturer_products&amp;manufacturer_id=7156&amp;filter_publisher=99&amp;sort=purchased_365&amp;order=DESC&amp;filter_in_stock=1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11750474/wi:200/wh:93dec9ef5" alt="Erich<br>Fromm" width="100" height="100"><span class="discount">kitaplarında %30'a varan indirimler!</span><span class="name">Erich<br>Fromm</span></a>
+          <a href="index.php?route=product/manufacturer_products&amp;manufacturer_id=26017&amp;filter_publisher=330&amp;sort=purchased_365&amp;order=DESC&amp;filter_in_stock=1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11750475/wi:200/wh:0ab7796e1" alt="Vladimir<br>Tumanov" width="100" height="100"><span class="discount">kitaplarında %35'e varan indirimler!</span><span class="name">Vladimir<br>Tumanov</span></a>
+          <a href="index.php?route=product/manufacturer_products&amp;manufacturer_id=145256&amp;filter_publisher=8320&amp;sort=purchased_365&amp;order=DESC&amp;filter_in_stock=1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11750476/wi:200/wh:b55a7918c" alt="Nermin<br>Yıldırım" width="100" height="100"><span class="discount">kitaplarında %40'a varan indirimler!</span><span class="name">Nermin<br>Yıldırım</span></a>
+          <a href="index.php?route=product/manufacturer_products&amp;manufacturer_id=151919&amp;filter_publisher=3992&amp;sort=purchased_365&amp;order=DESC&amp;filter_in_stock=1"><img src="https://img.kitapyurdu.com/v1/getImage/fn:11750477/wi:200/wh:ec8833068" alt="Jane<br>Casey" width="100" height="100"><span class="discount">kitaplarında %50'ye varan indirimler!</span><span class="name">Jane<br>Casey</span></a>
+        </div></div>
+        </div>
+        
+        <script>
+            var temp_ana_sayfa_ayin_yazarlari = document.getElementById('js-ana_sayfa_ayin_yazarlari').getElementsByClassName('html-display-wr')[0];
+            preU.crGrids.push(temp_ana_sayfa_ayin_yazarlari);
+            preU.crNames.push('html_display');
+            preU.crIds.push('js-ana_sayfa_ayin_yazarlari');
+            preU.crLLUrls.push('https://www.kitapyurdu.com/index.php?route=module/module&amp;module=ana_sayfa_ayin_yazarlari&amp;show_only_content=1');
+            preU.crLLIds.push('hd');
+            preU.crASs.push(false);
+        </script>
+        </div>
+
+
+</body>
+</html>

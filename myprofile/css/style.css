@@ -1,0 +1,132 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 1px;
+}
+body{
+    background-color: rgb(243, 230, 212);
+    line-height: 1.4;
+    color: rgb(48, 30, 30);
+    text-align: justify;
+    padding: 10px;
+}
+#menu1{
+    width: 800px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#baslik{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(50, 42, 165);
+    text-align: center;
+    color: rgb(190, 196, 196);
+    padding: 20px;
+}
+#baslik h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+#baslik h3{
+    font-weight: lighter;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#main{
+    width: 800px;
+    margin: auto;
+    border-left: 2px solid rgb(113, 224, 1) ;
+    border-right: 2px solid rgb(113, 224, 1) ;
+    padding: 15px;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(113, 224, 1);
+    
+}
+.profil img{
+    width: 200px;
+    border: 2px solid rgb(113, 224, 1);
+    border-radius: 10px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+ul{
+    list-style: circle;
+    padding-left: 25px;
+}
+ul li{
+    margin-bottom: 5px;
+}
+.proje{
+    border: 2px solid rgb(201, 192, 192);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+a{
+    color: rgb(44, 85, 3);
+    text-decoration: none ;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+    
+}
+span{
+    font-weight: 600;
+}
+#iletisimformu label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#iletisimformu input, textarea{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(113, 224, 1);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#iletisimformu textarea{
+    resize: vertical;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: red;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(0, 255, 106);
+    color: rgb(42, 44, 165);
+    cursor: pointer;
+    
+}
+
+#alt{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.2;
+    border: 2px solid rgb(113, 224, 1);
+    text-align: center;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+
